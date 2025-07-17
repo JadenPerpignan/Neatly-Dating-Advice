@@ -21,7 +21,7 @@ export const Card = React.forwardRef<HTMLDivElement, CardProps>(
           className
         )}
         ref={ref}
-        {...props}
+        {...(props as any)}
       >
         {header && <div className="mb-4 font-semibold text-lg">{header}</div>}
         <div>{children}</div>

@@ -1,14 +1,15 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: 'class',
   content: ['./app/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       colors: {
-        charcoal: '#232323',
-        offwhite: '#F8F8F5',
-        taupe: '#B8AFA3',
-        gold: '#C2882A', // deep gold accent
-        orange: '#D97A2B', // burnt orange accent
+        charcoal: 'var(--color-charcoal)',
+        offwhite: 'var(--color-offwhite)',
+        taupe: 'var(--color-taupe)',
+        gold: 'var(--color-gold)',
+        orange: 'var(--color-orange)',
       },
       fontFamily: {
         sans: [

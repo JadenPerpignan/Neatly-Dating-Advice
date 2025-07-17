@@ -39,7 +39,7 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
         whileHover={{ y: -2, boxShadow: '0 6px 24px 0 rgba(35,35,35,0.12)' }}
         className={cn(buttonVariants({ variant, size }), className)}
         ref={ref}
-        {...props}
+        {...(props as any)}
       >
         {children}
       </motion.button>

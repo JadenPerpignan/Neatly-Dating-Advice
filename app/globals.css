@@ -4,6 +4,16 @@
 
 @import '../styles/shadcn.css';
 
+@layer base {
+  :root {
+    --color-charcoal: #232323;
+    --color-offwhite: #F8F8F5;
+    --color-taupe: #B8AFA3;
+    --color-gold: #C2882A;
+    --color-orange: #D97A2B;
+  }
+}
+
 body {
   @apply bg-offwhite text-charcoal font-sans transition-colors duration-300;
 }

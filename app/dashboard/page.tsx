@@ -9,15 +9,15 @@ export default function DashboardPage() {
       <Card header="Alerts" className="col-span-1">
         <p className="text-taupe mb-2">Stay updated on flagged keywords and new alerts.</p>
         <ul className="text-charcoal dark:text-offwhite text-sm space-y-1">
-          <li>• "Ghosting" flagged in 2 new posts</li>
-          <li>• "Catfish" alert in your area</li>
+          <li>• &quot;Ghosting&quot; flagged in 2 new posts</li>
+          <li>• &quot;Catfish&quot; alert in your area</li>
         </ul>
       </Card>
       <Card header="Recent Posts" className="col-span-1 md:col-span-2">
         <p className="text-taupe mb-2">Your latest activity and community updates.</p>
         <ul className="text-charcoal dark:text-offwhite text-sm space-y-1">
-          <li>• "First date went well, but..." <span className="text-gold">(2 upvotes)</span></li>
-          <li>• "Red flag: always on her phone" <span className="text-gold">(5 upvotes)</span></li>
+          <li>• &quot;First date went well, but...&quot; <span className="text-gold">(2 upvotes)</span></li>
+          <li>• &quot;Red flag: always on her phone&quot; <span className="text-gold">(5 upvotes)</span></li>
         </ul>
       </Card>
       <Card header="Check-ins" className="col-span-1 md:col-span-3">
