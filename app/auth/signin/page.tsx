@@ -1,3 +1,5 @@
+'use client';
+
 import { getCsrfToken } from 'next-auth/react';
 import { Card } from '@/components/Card';
 import { Button } from '@/components/Button';
