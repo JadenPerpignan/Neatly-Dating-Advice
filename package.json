@@ -21,6 +21,7 @@
     "shadcn-ui": "^0.7.0"
   },
   "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
     "@types/node": "^20.4.2",
     "@types/react": "^18.2.14",
     "@typescript-eslint/eslint-plugin": "^6.7.0",
