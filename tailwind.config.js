@@ -5,11 +5,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        charcoal: 'var(--color-charcoal)',
-        offwhite: 'var(--color-offwhite)',
-        taupe: 'var(--color-taupe)',
-        gold: 'var(--color-gold)',
-        orange: 'var(--color-orange)',
+        offwhite: '#F8F6F2',
+        charcoal: '#232323',
+        taupe: '#B8AFA3',
+        gold: '#C2882A',
+        orange: '#D97A2B',
       },
       fontFamily: {
         sans: [
