@@ -20,7 +20,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Navbar />
-          <main className="container mx-auto px-4 py-6">{children}</main>
+          <main className="min-h-screen">{children}</main>
         </ThemeProvider>
       </body>
     </html>
