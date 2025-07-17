@@ -14,7 +14,7 @@ export default function DashboardPage() {
             Dashboard
           </h1>
           <p className="text-lg text-charcoal/70 dark:text-offwhite/70">
-            Welcome back. Here's what's happening in your community.
+            Welcome back. Here&apos;s what&apos;s happening in your community.
           </p>
         </div>
 
@@ -28,11 +28,11 @@ export default function DashboardPage() {
             <ul className="text-charcoal dark:text-offwhite text-sm space-y-2">
               <li className="flex items-start space-x-2">
                 <span className="text-gold mt-1">•</span>
-                <span>"Ghosting" flagged in 2 new posts</span>
+                <span>&quot;Ghosting&quot; flagged in 2 new posts</span>
               </li>
               <li className="flex items-start space-x-2">
                 <span className="text-gold mt-1">•</span>
-                <span>"Catfish" alert in your area</span>
+                <span>&quot;Catfish&quot; alert in your area</span>
               </li>
             </ul>
           </Card>
@@ -44,11 +44,11 @@ export default function DashboardPage() {
             </p>
             <ul className="text-charcoal dark:text-offwhite text-sm space-y-3">
               <li className="flex items-start justify-between">
-                <span>"First date went well, but..."</span>
+                <span>&quot;First date went well, but...&quot;</span>
                 <span className="text-gold font-medium">(2 upvotes)</span>
               </li>
               <li className="flex items-start justify-between">
-                <span>"Red flag: always on her phone"</span>
+                <span>&quot;Red flag: always on her phone&quot;</span>
                 <span className="text-gold font-medium">(5 upvotes)</span>
               </li>
             </ul>

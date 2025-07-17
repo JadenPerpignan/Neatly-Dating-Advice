@@ -27,7 +27,7 @@ export default function AlertsPage() {
                   Subscribe to Alerts
                 </h2>
                 <p className="text-charcoal/70 dark:text-offwhite/70 text-sm">
-                  Enter a name or handle to receive notifications when they're mentioned in the community.
+                  Enter a name or handle to receive notifications when they&apos;re mentioned in the community.
                 </p>
               </div>
               

@@ -25,7 +25,7 @@ export default function Home() {
 
           {/* Description */}
           <p className="text-lg text-charcoal/70 dark:text-offwhite/70 leading-relaxed max-w-2xl mx-auto">
-            Join a community where you can learn from others' experiences, 
+            Join a community where you can learn from others&apos; experiences, 
             share your own stories, and build confidence in your dating journey.
           </p>
 
