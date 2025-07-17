@@ -1,10 +1,10 @@
 {
   "/api/auth/[...nextauth]/route": "/api/auth/[...nextauth]",
-  "/dashboard/page": "/dashboard",
-  "/alerts/page": "/alerts",
-  "/forum/page": "/forum",
   "/_not-found/page": "/_not-found",
+  "/alerts/page": "/alerts",
+  "/auth/signin/page": "/auth/signin",
+  "/dashboard/page": "/dashboard",
   "/page": "/",
   "/profile/page": "/profile",
-  "/auth/signin/page": "/auth/signin"
+  "/forum/page": "/forum"
 }
