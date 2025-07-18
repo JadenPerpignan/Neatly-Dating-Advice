@@ -4,26 +4,28 @@
 
 @import '../styles/shadcn.css';
 
-body {
-  @apply bg-offwhite text-charcoal font-sans transition-colors duration-300;
-}
+@layer base {
+  body {
+    @apply bg-offwhite text-charcoal font-sans transition-colors duration-300;
+  }
 
-.dark body {
-  @apply bg-charcoal text-offwhite;
-}
+  .dark body {
+    @apply bg-charcoal text-offwhite;
+  }
 
-a {
-  @apply text-gold hover:text-orange transition-colors duration-200 underline-offset-2;
-}
+  a {
+    @apply text-gold hover:text-orange transition-colors duration-200 underline-offset-2;
+  }
 
-h1, h2, h3, h4, h5, h6 {
-  @apply font-bold;
-}
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
 
-input, textarea, select {
-  @apply bg-transparent border-taupe text-charcoal dark:text-offwhite dark:border-taupe focus:ring-gold focus:border-gold transition-colors duration-200;
-}
+  input, textarea, select {
+    @apply bg-transparent border-taupe text-charcoal dark:text-offwhite dark:border-taupe focus:ring-gold focus:border-gold transition-colors duration-200;
+  }
 
-button {
-  @apply transition-all duration-150;
+  button {
+    @apply transition-all duration-150;
+  }
 }
